@@ -1,0 +1,2 @@
+# PHP Array Key Bug
+This repository demonstrates a common but subtle bug in PHP related to array keys and the `count()` function.  PHP's flexible type system can lead to unexpected behavior when using integer keys, which are implicitly converted to strings. This example showcases the issue and offers a solution for handling array keys more predictably.  The `bug.php` file shows the problem while `bugSolution.php` presents a corrected approach.
